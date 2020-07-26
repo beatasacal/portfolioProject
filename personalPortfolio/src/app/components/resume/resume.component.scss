@@ -1,0 +1,31 @@
+@import '../../../scss/variables';
+
+
+.resume-content {
+    background-color: $white-turquoise;
+
+    h2 {
+        font-size: xx-large;
+        margin-top: 45px;
+        margin-left: 30px;
+    }
+    
+    table {
+        
+        width: 100%;
+    
+        td {
+            margin-bottom: 15px;
+            width: 50%;
+            padding: 20px 35px;
+            transition-duration: 0.6s;
+            vertical-align: top;
+        }
+
+        td:hover {
+            background-color: $grey;
+            border: 1px solid $grey;
+            border-radius: 32px;
+        }
+    }
+}
