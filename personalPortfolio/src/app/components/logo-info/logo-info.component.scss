@@ -17,10 +17,18 @@
         color: $dark-turquoise;
         outline: none; 
     }
+
+    .logo:hover {
+        background-color: $grey;
+        border: 2px solid $dark-grey;
+        color: $dark-grey;
+        border-radius: 32px;
+        transition-duration: 0.6s;
+    }
 }
 
 .basic-information {
-    position: absolute;
+    position: fixed;
     bottom: 8%;
     left: 45px;
     color: white;
@@ -30,10 +38,15 @@
 
         .fa {
             color: white;
+            margin: 0 20px 0 0;
         }
 
         .fa:hover {
-            color: $dark-turquoise;
+            color: $dark-grey;
         }
     }
+}
+
+.basic-information h3:hover,p:hover {
+    color: $white-turquoise;
 }

@@ -41,8 +41,7 @@
             text-transform: uppercase;
     
             .last-name {
-                color: #7c421e;
-    
+                color: $dark-grey;
             }
         }
     
@@ -63,6 +62,14 @@
             font-weight: 540;
             color: $white;
         }
+
+        .main-btn:hover {
+            background-color: $grey;
+            border: 1px solid $dark-grey;
+            padding: 14px 27px;
+            color: $dark-grey;
+            font-weight: 550;
+        }
     
         .blank-btn {
             margin-left: 35px;
@@ -76,6 +83,14 @@
             font-weight: 550;
             color: $dark-turquoise;
             cursor: pointer;
+        }
+
+        .blank-btn:hover {
+            background-color: $grey;
+            border: 2px solid $dark-grey;
+            color: $dark-grey;
+            border-radius: 32px;
+            transition-duration: 0.6s;
         }
     }
 }
